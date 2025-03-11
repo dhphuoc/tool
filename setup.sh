@@ -6,8 +6,8 @@ pkg install python -y
 pkg install php -y
 pkg install nmap -y
 pkg install android-tools -y
-curl -o /sdcard/Download/dhp07.py https://keydhphuoc.x10.mx/Main/main.txt
-echo "alias dhp07='cd /sdcard/Download && python dhp07.py'" >> ~/.bashrc
+curl -o /sdcard/Download/dhp07_v1.py https://raw.githubusercontent.com/dhphuoc/tool/refs/heads/main/dhp07_v1.py
+echo "alias dhp07='cd /sdcard/Download && python dhp07_v1.py'" >> ~/.bashrc
 
 source ~/.bashrc
 
